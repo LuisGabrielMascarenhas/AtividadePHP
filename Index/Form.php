@@ -10,7 +10,7 @@
     <Form action = "v1/Api.php?apicall=createhero" method = "post" >
         <div>
             <label for="name">Nome</label>
-            <input type="text" name = "name" bid = "name" placeholder = "Insira o nome">
+            <input type="text" name = "name" id = "name" placeholder = "Insira o nome">
 
         </div>
         <div>
