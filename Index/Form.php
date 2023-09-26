@@ -10,9 +10,9 @@
 <body>
     <Form action = "v1/Api.php?apicall=createhero" method = "post" >
     <div  class = "Formulario">
-            <div>
+            <div class = "label">
                 <label for="name">Nome:</label>
-                <input type="text" name = "name" id = "name" placeholder = "Insira o nome">
+                <input class = "input" type="text" name = "name" id = "name" placeholder = "Insira o nome">
             </div>
         
             <div>
@@ -57,5 +57,6 @@
 
         </Form>
     </div> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

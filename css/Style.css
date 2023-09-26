@@ -1,6 +1,19 @@
+body{
+    background-color: rgb(176, 209, 209);
+    
+}
+
 .Formulario{
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+}
+label{
+    display: grid;
+    justify-items: center;
+}
+input{
+    height: 35px;
+    border-radius: 15px;
 }
