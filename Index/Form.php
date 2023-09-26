@@ -5,22 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hero</title>
-    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="../css/Style.css">
 </head>
 <body>
     <Form action = "v1/Api.php?apicall=createhero" method = "post" >
-    <div  id = "Formulario">
+    <div  class = "Formulario">
             <div>
-                <label for="name">Nome</label>
+                <label for="name">Nome:</label>
                 <input type="text" name = "name" id = "name" placeholder = "Insira o nome">
             </div>
         
             <div>
-                <label for="realname">Nome Real</label>
+                <label for="realname">Nome Real:</label>
                 <input type="text" name = "realname" id = "realname" placeholder = "Insira o nome real">
             
             </div>
-    
+            <p>Rating</p>
             <div class="form-check form-check-inline">
 
                 <input class="form-check-input" type="radio" name="rating" id="rating" value="1">
