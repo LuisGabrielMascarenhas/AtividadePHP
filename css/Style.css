@@ -11,9 +11,18 @@ body{
 }
 label{
     display: grid;
+    margin-top: 10px;
     justify-items: center;
 }
 input{
     height: 35px;
     border-radius: 15px;
+}
+.rating{
+    display: flex;
+}
+button{
+    margin: 15px;
+    height: 40px;
+    width: 75px;
 }
